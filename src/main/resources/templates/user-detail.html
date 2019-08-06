@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/prettyPhoto.css" rel="stylesheet">
+    <link href="/css/price-range.css" rel="stylesheet">
+    <link href="/css/animate.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
+
+    <link href="/css/user_detail.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" th:href="@{/images/ico/favicon.ico}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          th:href="@{/images/ico/apple-touch-icon-144-precomposed.png}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          th:href="@{/images/ico/apple-touch-icon-114-precomposed.png}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" th:href="@{/images/ico/apple-touch-icon-72-precomposed.png}">
+    <link rel="apple-touch-icon-precomposed" th:href="@{/images/ico/apple-touch-icon-57-precomposed.png}">
+    <title>User-detail</title>
+</head>
+<body>
+
+
+<!--<div class="container" style="margin-top: 60px">-->
+
+    <!--<form th:action="@{/user/update}" th:object="${user}" method="post">-->
+        <!--<fieldset>-->
+            <!--<div class="row">-->
+                <!--<div class="col-md-5 col-sm-12 col-xs-12">-->
+                    <!--<div style="text-align: center">-->
+                        <!--<img th:if="*{avatar}"th:src="*{avatar}" class="user-avatar">-->
+                    <!--</div>-->
+                    <!--<div style="text-align: center">-->
+                        <!--<img th:unless="*{avatar}" src="https://aets.org.es/wp-content/uploads/2014/12/omita-el-icono-del-perfil-avatar-placeholder-gris-de-la-foto-99724602.jpg" class="user-avatar">-->
+                    <!--</div>-->
+
+                    <!--<div style="text-align: center; margin-top: 20px">-->
+                        <!--<input type='file'  id="change-avatar"/>-->
+                    <!--</div>-->
+                    <!--<input type="text" id="avatar" th:field="*{avatar}" style="display: none">-->
+
+                <!--</div>-->
+
+                <!--<div class="col-md-7 col-sm-12 col-xs-12">-->
+                    <!--<h1>User Detail</h1>-->
+
+                    <!--<div th:if="${param.updateSuccess}">-->
+                        <!--<div class="alert alert-primary">-->
+                            <!--Update success !!-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div th:if="${param.updateFail}">-->
+                        <!--<div class="alert alert-danger">-->
+                            <!--Update fail !!-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <!--<div class="form-group">-->
+                        <!--<label>Name:</label>-->
+                        <!--<input type="text" class="form-control" id="name" th:field="*{name}" name="name" />-->
+                    <!--</div>-->
+                    <!--<div class="form-group">-->
+                        <!--<label for="email">Email address:</label>-->
+                        <!--<input type="email" class="form-control" id="email" th:field="*{email}" name="email" />-->
+                    <!--</div>-->
+                    <!--<div class="form-group">-->
+                        <!--<label>Gender:</label>-->
+                        <!--<select th:field="*{gender}">-->
+                            <!--<option value="0">Undefined </option>-->
+                            <!--<option value="1">Male</option>-->
+                            <!--<option value="2">Female</option>-->
+                        <!--</select>-->
+                    <!--</div>-->
+                    <!--<div class="form-group">-->
+                        <!--<label>Address:</label>-->
+                        <!--<input type="text" class="form-control" id="name" th:field="*{address}" name="address" />-->
+                    <!--</div>-->
+                    <!--<div class="form-group">-->
+                        <!--<label>Phone number:</label>-->
+                        <!--<input type="text" class="form-control" id="name" th:field="*{phoneNumber}" name="phoneNumber" />-->
+                    <!--</div>-->
+
+                    <!--<div class="row">-->
+                        <!--<div class="col-xs-6 col-sm-6 col-md-6">-->
+                            <!--<button class="btn btn-primary" type="submit">Update</button>-->
+                        <!--</div>-->
+                        <!--<div class="col-xs-6 col-sm-6 col-md-6">-->
+                            <!--<a class="btn btn-success" th:href="@{'/user/change-password'}" role="button">Change password</a>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</fieldset>-->
+    <!--</form>-->
+
+<!--</div>-->
+
+
+
+<div th:fragment="header_info ">
+    <header id="header"><!--header-->
+        <div class="header_top"><!--header_top-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 ">
+                        <div class="contactinfo">
+                            <ul class="nav nav-pills">
+                                <li><a href=""><i class="fa fa-phone"></i> 0962072090</a></li>
+                                <li><a href=""><i class="fa fa-envelope"></i> aduthpt@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="social-icons pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header_top-->
+
+        <div class="header-middle"><!--header-middle-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo pull-left">
+                            <a href="index.html"><img src="images/home/logo.png" alt="" /></a>
+                        </div>
+                        <div class="btn-group pull-right">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                    USA
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Canada</a></li>
+                                    <li><a href="">UK</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
+                                    DOLLAR
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="">Canadian Dollar</a></li>
+                                    <li><a href="">Pound</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="shop-menu pull-right">
+                            <ul class="nav navbar-nav">
+
+                                <div sec:authorize="isAuthenticated()">
+                                    <li><a th:href="@{/user/detail}"><i th:inline="text" class="fa fa-user" aria-haspopup="true" aria-expanded="false"> [[${#httpServletRequest.remoteUser}]]</i>  </a></li>
+                                    <li><a href=""><i class="fa fa-star"></i> Wishlist</a></li>
+                                    <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+                                    <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                                    <li><a th:href="@{/logout}"><i class="fa fa-sign-out" style="font-size:16px"></i> Logout</a></li>
+                                </div>
+
+                                <div sec:authorize="isAnonymous()">
+                                    <li><a href=""><i class="fa fa-user"></i> Account</a></li>
+                                    <li><a href=""><i class="fa fa-star"></i> Wishlist</a></li>
+                                    <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+                                    <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                                    <li><a th:href="@{/login}"><i class="fa fa-lock"></i> Login</a></li>
+                                </div>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-middle-->
+
+        <div class="header-bottom"><!--header-bottom-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="mainmenu pull-left">
+                            <ul class="nav navbar-nav collapse navbar-collapse">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="dropdown"><a href="#" class="active">Shop<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="shop.html" class="active">Products</a></li>
+                                        <li><a href="product-details.html">Product Details</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
+                                    <ul role="menu" class="sub-menu">
+                                        <li><a href="blog.html">Blog List</a></li>
+                                        <li><a href="blog-single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="404.html">404</a></li>
+                                <li><a href="contact-us.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<div class="container" style="margin-top: 60px">
+    <form  th:action="@{/user/update}" th:object="${user}" method="post" id="myForm">
+        <fieldset>
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="card card-user">
+                        <div class="image">
+                            <img src="http://xdbjsc.com/portal/Sites/143/2011.jpg">
+                        </div>
+                        <div class="card-body" style="height: 300px">
+                            <div style="text-align: center">
+                                <img th:if="*{avatar}"th:src="*{avatar}"  class="user-avatar">
+                            </div>
+                            <div style="text-align: center">
+                                <img th:unless="*{avatar}" src="https://aets.org.es/wp-content/uploads/2014/12/omita-el-icono-del-perfil-avatar-placeholder-gris-de-la-foto-99724602.jpg"  class="user-avatar">
+                            </div>
+
+                            <div style="text-align: center; margin-top: 40px; margin-left: 100px">
+                                <input type='file'  id="change-avatar"/>
+                            </div>
+                            <input type="text" id="avatar" th:field="*{avatar}" style="display: none">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-7">
+                    <div class="card card-user">
+                        <div class="card-header">
+                            <h1 class="card-title">User Detail</h1>
+                            <div  th:if="${param.updateSuccess}">
+                                <div class="alert alert-dark  ">
+                               <span style="color:white;margin-left: 50px;" >     Update success !!  </span>
+                                </div>
+                            </div>
+
+                            <div th:if="${param.updateFail}">
+                                <div class="alert ">
+                                    Update fail !!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <div class="form-group">
+                                        <label>Name:</label>
+                                        <input type="text" class="form-control" id="name" th:field="*{name}"
+                                               name="name"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <div class="form-group">
+                                        <label for="email">Email address:</label>
+                                        <input type="email" class="form-control" id="email" th:field="*{email}"
+                                               name="email"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <div class="form-group">
+                                        <div class="inputgender">
+                                            <label>Gender:</label>
+                                            <select th:field="*{gender}">
+                                                <option value="0">Undefined</option>
+                                                <option value="1">Male</option>
+                                                <option value="2">Female</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-11 " style="margin-left: 25px">
+                                    <div class="form-group">
+                                        <label>Address:</label>
+                                        <input type="text" class="form-control" id="name" th:field="*{address}"
+                                               name="address"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-11">
+                                    <div class="form-group">
+                                        <label>Phone number:</label>
+                                        <input type="text" class="form-control" id="name" th:field="*{phoneNumber}"
+                                               name="phoneNumber"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <div class="btnupdate">
+                                        <button class="btn btn-primary2" type="submit">Update</button>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="btnChangepassword">
+                                        <a class="btn btn-success" th:href="@{'/user/change-password'}" role="button">Change
+                                            password</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+
+<div th:replace="fragments/footer :: footer_info"></div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.9.0/sweetalert2.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+<script th:src="@{/js/user-detail.js}"></script>
+
+</body>
+</html>

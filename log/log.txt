@@ -1,0 +1,553 @@
+2019-Mar-15 22:07:34 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:07:34 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:08:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:08:11 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:10:58 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:10:58 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:12:06 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:12:07 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:12:53 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:12:54 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:41:57 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:41:57 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:42:32 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 22:42:33 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 23:30:28 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-15 23:30:29 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 15:47:08 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 15:47:09 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 19:56:31 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 19:56:31 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:23:28 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:23:29 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:24:10 PM [http-nio-8080-exec-2] ERROR application.controller.api.ProductApiController - bound must be positive
+2019-Mar-19 20:46:18 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:46:19 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:57:22 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:57:22 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:58:13 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:58:13 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:58:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 20:58:45 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:38:55 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:38:55 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:40:18 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:40:18 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:40:51 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:40:51 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:41:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:41:45 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:44:12 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:44:12 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:44:41 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:44:41 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:45:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:45:26 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:46:07 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:46:08 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:47:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:47:25 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:47:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:47:46 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:50:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:50:12 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:51:32 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:51:33 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:54:19 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:54:19 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:54:36 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:54:37 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:59:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-19 23:59:26 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 00:05:06 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 00:05:06 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:03:16 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:03:16 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:07:06 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:07:06 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:07:52 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:07:52 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:11:28 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:11:28 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:14:33 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:14:34 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:15:03 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:15:03 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:15:22 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:15:22 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:22:53 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 11:22:54 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 12:23:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 12:23:56 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 12:30:52 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 12:30:53 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 13:16:43 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 13:16:43 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 13:17:09 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 13:17:10 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 19:20:18 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 19:20:18 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 20:37:37 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 20:37:37 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:21:14 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:21:15 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:21:40 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:21:40 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:33:29 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:33:30 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:45:53 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-20 21:45:53 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 12:40:43 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 12:40:43 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 12:51:54 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 12:51:54 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 13:00:07 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 13:00:07 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 13:00:54 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 13:00:55 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 20:42:12 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 20:42:12 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 20:52:41 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 20:52:41 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 21:43:09 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 21:43:09 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 21:59:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 21:59:11 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:04:13 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:04:13 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:32:50 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:32:50 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:33:21 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:33:22 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:36:09 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:36:09 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:37:31 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:37:31 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:41:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:41:45 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:42:23 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-22 22:42:23 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:25:03 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:25:04 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:37:40 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:37:40 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:42:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:42:11 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:49:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:49:25 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:53:06 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:53:06 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:53:44 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:53:44 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:58:10 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:58:11 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:59:05 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:59:05 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:59:54 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 21:59:55 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 22:05:17 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 22:05:17 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 22:13:43 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-24 22:13:44 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 16:04:38 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 16:04:38 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 18:28:49 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 18:28:50 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 18:39:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 18:39:26 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:42:36 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:42:36 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:43:17 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:43:17 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:46:01 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:46:01 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:46:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:46:56 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:55:28 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:55:28 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:59:23 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Mar-25 19:59:23 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-05 20:22:12 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-05 20:22:13 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:20:54 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:20:54 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:39:46 AM [http-nio-8080-exec-1] ERROR application.controller.api.ProductImageApiController - could not extract ResultSet
+2019-Apr-07 11:40:41 AM [http-nio-8080-exec-2] ERROR application.controller.api.ProductImageApiController - could not extract ResultSet
+2019-Apr-07 11:41:41 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:41:41 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:45:42 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:45:43 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:46:19 AM [http-nio-8080-exec-4] ERROR application.controller.api.ProductImageApiController - could not extract ResultSet
+2019-Apr-07 11:47:45 AM [http-nio-8080-exec-2] ERROR application.controller.api.ProductImageApiController - could not extract ResultSet
+2019-Apr-07 11:47:55 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:47:55 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 11:48:21 AM [http-nio-8080-exec-1] ERROR application.controller.api.ProductImageApiController - could not extract ResultSet
+2019-Apr-07 13:54:20 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 13:54:21 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 19:13:52 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 19:13:53 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:01:15 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:01:16 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:23:10 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:23:10 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:25:36 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:25:36 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:30:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:30:46 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:32:00 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 20:32:00 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 21:47:37 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 21:47:37 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 22:41:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 22:41:57 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 22:49:24 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 22:49:24 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 22:54:38 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 22:54:39 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:01:50 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:01:50 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:10:13 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:10:14 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:15:01 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:15:02 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:18:53 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:18:54 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:21:34 PM [http-nio-8080-exec-2] ERROR application.controller.api.ProductApiController - could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+2019-Apr-07 23:22:07 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:22:08 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:33:01 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:33:01 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:45:40 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-07 23:45:41 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:31:31 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:31:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:32:08 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:32:08 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:33:44 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:33:44 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:36:27 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:36:27 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:39:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:39:56 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:45:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:45:45 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:52:46 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 15:52:46 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 16:03:16 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 16:03:16 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 16:22:14 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 16:22:14 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 16:30:12 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 16:30:13 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 18:15:34 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 18:15:34 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 19:05:09 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-08 19:05:10 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:01:32 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:01:33 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:02:11 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:02:11 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:02:41 AM [http-nio-8080-exec-10] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:02:41 AM [http-nio-8080-exec-1] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:02:41 AM [http-nio-8080-exec-10] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:02:41 AM [http-nio-8080-exec-1] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:02:43 AM [http-nio-8080-exec-2] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:02:43 AM [http-nio-8080-exec-7] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:02:43 AM [http-nio-8080-exec-7] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:02:43 AM [http-nio-8080-exec-2] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:02:45 AM [http-nio-8080-exec-6] ERROR application.controller.web.CartController - could not extract ResultSet
+2019-Apr-10 11:03:01 AM [http-nio-8080-exec-1] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:03:01 AM [http-nio-8080-exec-10] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:03:01 AM [http-nio-8080-exec-10] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:03:01 AM [http-nio-8080-exec-1] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:15 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:07:15 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:07:32 AM [http-nio-8080-exec-2] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:32 AM [http-nio-8080-exec-3] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:32 AM [http-nio-8080-exec-3] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:32 AM [http-nio-8080-exec-2] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:47 AM [http-nio-8080-exec-9] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:47 AM [http-nio-8080-exec-8] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:47 AM [http-nio-8080-exec-8] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:47 AM [http-nio-8080-exec-9] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:53 AM [http-nio-8080-exec-1] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:53 AM [http-nio-8080-exec-5] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:53 AM [http-nio-8080-exec-1] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:53 AM [http-nio-8080-exec-5] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:55 AM [http-nio-8080-exec-10] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:55 AM [http-nio-8080-exec-6] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:07:55 AM [http-nio-8080-exec-6] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:07:55 AM [http-nio-8080-exec-10] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:08:00 AM [http-nio-8080-exec-7] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:08:00 AM [http-nio-8080-exec-4] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:08:00 AM [http-nio-8080-exec-7] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:08:00 AM [http-nio-8080-exec-4] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:08:29 AM [http-nio-8080-exec-2] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:08:29 AM [http-nio-8080-exec-3] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:08:29 AM [http-nio-8080-exec-3] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:08:29 AM [http-nio-8080-exec-2] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:10:04 AM [http-nio-8080-exec-9] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:10:04 AM [http-nio-8080-exec-1] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:10:04 AM [http-nio-8080-exec-9] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:10:04 AM [http-nio-8080-exec-1] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:10:06 AM [http-nio-8080-exec-2] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:10:06 AM [http-nio-8080-exec-10] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:10:06 AM [http-nio-8080-exec-10] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:10:06 AM [http-nio-8080-exec-2] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:10:10 AM [http-nio-8080-exec-2] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:10:10 AM [http-nio-8080-exec-5] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:10:10 AM [http-nio-8080-exec-2] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:10:10 AM [http-nio-8080-exec-5] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:12:58 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:12:59 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:13:45 AM [http-nio-8080-exec-6] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:13:45 AM [http-nio-8080-exec-9] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:13:45 AM [http-nio-8080-exec-9] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:13:45 AM [http-nio-8080-exec-6] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:13:48 AM [http-nio-8080-exec-3] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:13:48 AM [http-nio-8080-exec-10] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:13:48 AM [http-nio-8080-exec-3] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:13:48 AM [http-nio-8080-exec-10] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:13:50 AM [http-nio-8080-exec-8] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:13:50 AM [http-nio-8080-exec-7] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:13:50 AM [http-nio-8080-exec-7] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:13:50 AM [http-nio-8080-exec-8] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:16:49 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:16:50 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:17:10 AM [http-nio-8080-exec-9] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:17:10 AM [http-nio-8080-exec-8] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:17:10 AM [http-nio-8080-exec-9] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:17:10 AM [http-nio-8080-exec-8] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:17:13 AM [http-nio-8080-exec-2] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:17:13 AM [http-nio-8080-exec-2] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:17:13 AM [http-nio-8080-exec-3] ERROR application.data.service.CartProductService - could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+2019-Apr-10 11:17:13 AM [http-nio-8080-exec-3] ERROR application.controller.api.CategoryApiController - could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+2019-Apr-10 11:40:39 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:40:40 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:41:31 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:41:31 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:50:36 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:50:36 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:52:44 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:52:44 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:54:59 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:54:59 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:55:30 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 11:55:30 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 12:03:53 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 12:03:54 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:13:53 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:13:54 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:31:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:31:57 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:34:35 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:34:35 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:36:10 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 13:36:11 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:40:06 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:40:06 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:43:42 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:43:42 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:46:41 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:46:42 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:51:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:51:11 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:55:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 14:55:57 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 15:16:32 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 15:16:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 15:52:47 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 15:52:48 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 15:54:08 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-10 15:54:08 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 19:39:18 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 19:39:19 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 19:58:48 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 19:58:49 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 20:02:03 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 20:02:03 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 20:06:02 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 20:06:03 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:18:05 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:18:06 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:22:04 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:22:04 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:37:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:37:26 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:38:36 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:38:36 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:46:18 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 21:46:18 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 22:11:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 22:11:25 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 22:20:40 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 22:20:40 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 22:32:16 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-16 22:32:17 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:38:23 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:38:24 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:41:37 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:41:38 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:42:31 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:42:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:43:44 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:43:45 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:47:38 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:47:38 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:50:01 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:50:01 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:50:51 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:50:51 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:53:24 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:53:24 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:54:43 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:54:43 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:57:59 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 12:57:59 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 14:40:22 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 14:40:23 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 15:01:19 PM [http-nio-8080-exec-4] ERROR application.controller.web.CartController - Unable to find application.data.model.Product with id 83
+2019-Apr-17 15:01:26 PM [http-nio-8080-exec-5] ERROR application.controller.web.CartController - Unable to find application.data.model.Product with id 83
+2019-Apr-17 15:05:21 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 15:05:22 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 15:06:15 PM [http-nio-8080-exec-2] ERROR application.controller.web.CartController - Unable to find application.data.model.Product with id 84
+2019-Apr-17 15:06:16 PM [http-nio-8080-exec-6] ERROR application.controller.web.CartController - Unable to find application.data.model.Product with id 84
+2019-Apr-17 15:07:49 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 15:07:49 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 15:08:22 PM [http-nio-8080-exec-6] ERROR application.controller.web.CartController - Unable to find application.data.model.Product with id 84
+2019-Apr-17 15:08:48 PM [http-nio-8080-exec-9] ERROR application.controller.web.CartController - Unable to find application.data.model.Product with id 83
+2019-Apr-17 15:09:02 PM [http-nio-8080-exec-1] ERROR application.controller.web.CartController - Unable to find application.data.model.Product with id 81
+2019-Apr-17 15:10:25 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 15:10:25 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 19:37:32 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Apr-17 19:37:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 11:48:12 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 11:48:13 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 11:52:02 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 11:52:03 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 11:54:59 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 11:55:00 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 12:31:12 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 12:31:13 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:05:42 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:05:42 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:07:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:07:56 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:40:56 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:40:56 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:41:32 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:41:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:57:29 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:57:29 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:58:48 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:58:48 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:59:33 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 13:59:33 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:00:02 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:00:02 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:01:35 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:01:35 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:06:59 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:06:59 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:09:57 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:09:57 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:12:00 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:12:00 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:12:38 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:12:38 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:13:24 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:13:24 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:14:14 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:14:14 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:16:09 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:16:10 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:19:18 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:19:19 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:25:32 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:25:33 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:26:04 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:26:04 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:30:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:30:46 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:33:28 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:33:29 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:34:48 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:34:48 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:36:21 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:36:22 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:37:08 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:37:09 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:37:40 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:37:40 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:40:45 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:40:45 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:46:34 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:46:34 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:58:35 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 14:58:35 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:00:12 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:00:13 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:42:28 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:42:29 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:45:13 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:45:14 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:45:44 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:45:44 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:52:52 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 15:52:52 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:01:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:01:11 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:16:19 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:16:20 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:32:05 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:32:06 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:32:43 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:32:43 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:38:23 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:38:23 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:43:58 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 16:43:58 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 18:52:10 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 18:52:10 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 18:55:31 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 18:55:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:00:10 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:00:10 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:08:04 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:08:05 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:16:35 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:16:36 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:17:41 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:17:42 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:24:19 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:24:20 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:31:35 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:31:36 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:53:32 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 19:53:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:04:44 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:04:45 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:27:31 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:27:31 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:31:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:31:12 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:33:11 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:33:12 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:41:31 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:41:32 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:51:38 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 20:51:39 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 21:06:09 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 21:06:10 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 21:40:15 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 21:40:16 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 23:21:47 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 23:21:47 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-14 23:51:53 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-14 23:51:53 PM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-May-15 09:53:59 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-May-15 09:53:59 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Jul-16 11:53:35 AM [main] DEBUG application.Application - Start main ---------------- 
+2019-Jul-16 11:53:35 AM [restartedMain] DEBUG application.Application - Start main ---------------- 
+2019-Jul-16 12:17:49 PM [main] DEBUG application.Application - Start main ---------------- 
+2019-Jul-16 12:17:49 PM [restartedMain] DEBUG application.Application - Start main ---------------- 

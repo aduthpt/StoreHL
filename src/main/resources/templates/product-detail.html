@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+	<link th:href="@{/css/prettyPhoto.css}" rel="stylesheet">
+	<link th:href="@{/css/price-range.css}" rel="stylesheet">
+	<link th:href="@{/css/animate.css}" rel="stylesheet">
+	<link th:href="@{/css/main.css}" rel="stylesheet">
+	<link th:href="@{/css/responsive.css}" rel="stylesheet">
+	<link th:href="@{/css/font-awesome.min.css}" rel="stylesheet">
+	<link rel="stylesheet" th:href="@{/dist/assets/owl.carousel.min.css}">
+	<script th:src="@{/dist/owl.carousel.min.js}"></script>
+
+
+
+
+
+	<!--[if lt IE 9]>
+
+	<![endif]-->
+
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+	<link th:href="@{/css/bootstrap-rating.css}" rel="stylesheet">
+	<script th:src="@{/js/html5shiv.js}"></script>
+	<script th:src="@{/js/html5shiv.js}"></script>
+	<script th:src="@{/js/bootstrap-rating.js}"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" th:href="@{/images/ico/favicon.ico}">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" th:href="@{/images/ico/apple-touch-icon-144-precomposed.png}">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" th:href="@{/images/ico/apple-touch-icon-114-precomposed.png}">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" th:href="@{/images/ico/apple-touch-icon-72-precomposed.png}">
+	<link rel="apple-touch-icon-precomposed"  th:href="@{/images/ico/apple-touch-icon-57-precomposed.png}" >
+	<link rel="shortcut icon" href="images/ico/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="shortcut icon" th:href="@{/images/ico/favicon.ico}">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" th:href="@{/images/ico/apple-touch-icon-144-precomposed.png}">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" th:href="@{/images/ico/apple-touch-icon-114-precomposed.png}">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" th:href="@{/images/ico/apple-touch-icon-72-precomposed.png}">
+	<link rel="apple-touch-icon-precomposed"  th:href="@{/images/ico/apple-touch-icon-57-precomposed.png}" >
+
+	<style type="text/css">
+        .thumbnail {
+            padding:0px;
+        }
+        .panel {
+            position:relative;
+        }
+        .panel>.panel-heading:after,.panel>.panel-heading:before{
+            position:absolute;
+            top:11px;left:-16px;
+            right:100%;
+            width:0;
+            height:0;
+            display:block;
+            content:" ";
+            border-color:transparent;
+            border-style:solid solid outset;
+            pointer-events:none;
+        }
+        .panel>.panel-heading:after{
+            border-width:7px;
+            border-right-color:#f7f7f7;
+            margin-top:1px;
+            margin-left:2px;
+        }
+        .panel>.panel-heading:before{
+            border-right-color:#ddd;
+            border-width:8px;
+        }
+        .zoom {
+
+
+            transition: transform .3s;
+
+            margin: 0 auto;
+        }
+
+        .zoom:hover {
+            -ms-transform: scale(1.2); /* IE 9 */
+            -webkit-transform: scale(1.2); /* Safari 3-8 */
+            transform: scale(1.2);
+        }
+	</style>
+</head>
+<body>
+<div th:replace="fragments/header :: header_info "></div>
+
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="left-sidebar">
+					<h2>Category</h2>
+					<div class="panel-group category-products" id="accordian"><!--category-productsr-->
+
+
+						<div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 type="url"  class="list-group-item list-group-item-action" th:each="category : ${vm.getCategoryVMList()}" class="panel-title"><a th:text="${category.getName()}" th:href="${'/?categoryId='+category.getId()}"></a></h4>
+                            </div>
+						</div>
+
+					</div><!--/category-products-->
+
+					<div class="brands_products"><!--brands_products-->
+						<h2>Brands</h2>
+						<div class="brands-name">
+							<ul class="nav nav-pills nav-stacked">
+								<li th:each="brand : ${vm.getBrandVMList()}"  > <a th:text="${brand.getName()}" th:href="${'/?brandId='+brand.getId()}"></a></li>
+
+							</ul>
+
+						</div>
+
+					</div><!--/brands_products-->
+
+					<!--<div class="price-range">&lt;!&ndash;price-range&ndash;&gt;-->
+						<!--<h2>Price Range</h2>-->
+						<!--&lt;!&ndash;<div class="well">&ndash;&gt;-->
+							<!--&lt;!&ndash;<input type="text" class="span2" value="" data-slider-min="0" data-slider-max="600" data-slider-step="5" data-slider-value="[250,450]" id="sl2" ><br />&ndash;&gt;-->
+							<!--&lt;!&ndash;<b>$ 0</b> <b class="pull-right">$ 600</b>&ndash;&gt;-->
+						<!--&lt;!&ndash;</div>&ndash;&gt;-->
+					<!--</div>&lt;!&ndash;/price-range&ndash;&gt;-->
+
+					<div class="shipping text-center"><!--shipping-->
+						<img src="images/home/shipping.jpg" alt="" />
+					</div><!--/shipping-->
+
+				</div>
+			</div>
+
+			<div class="col-sm-9 padding-right">
+				<div class="product-details"><!--product-details-->
+					<div class="col-sm-5">
+						<div class="view-product ">
+							<div class="mag magnify anh" ><img style="height: 350px" th:style="hov" class="zoom" data-toggle="magnify" th:src="${vm.getProductVM().getMainImage()}"  id="test1" alt="Sản phẩm 1"></div>
+
+					</div>
+					<div id="similar-product" class="carousel slide" data-ride="carousel">
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active"  >
+								<span href="" th:each=" productImg : ${vm.getProductVM().getProductImageVMS()}"><img  class="list-product-image zoom" style="height: 84px;width: 84px" th:src="${productImg.getLink()}" th:attr="data-image=${productImg.getLink()}"></span>
+
+
+							</div>
+
+
+						</div>
+
+
+					</div>
+
+
+				</div>
+				<div class="col-sm-7">
+					<div class="product-information"><!--/product-information-->
+						<img src="images/product-details/new.jpg" class="newarrival" alt="" />
+                        <h2 th:text="${vm.getProductVM().getName()}"></h2>
+                        <p th:text="${vm.getProductVM().getShortDesc()}"></p>
+
+						<span>
+									<span  class="small" th:text="${'US ' +vm.getProductVM().getPrice()} + '$'">US $59</span>
+									<label>Quantity:</label>
+									<input id="getAmount"   placeholder="1" type="number" value="" />
+									<button type="button" class="btn btn-fefault cart add-to-cart" th:attr="data-product=${vm.getProductVM().getId()}" >
+										<i class="fa fa-shopping-cart"></i>
+										Add to cart
+									</button>
+								</span>
+                        <p><b>Category:</b> <span  th:text="${vm.getProductVM().getCategoryName()}"></span></p>
+
+						<p><b>Brand:</b> <span  th:text="${vm.getProductVM().getBrandName()}" ></span></p>
+                        <select class=""  style="width: 70px">
+                            <option selected value="0">Size</option>
+							<option th:each="size : ${vm.getSizeVMList()}" th:value="${size.getId()}" th:text="${size.getName()}"></option>
+
+                        </select>
+
+						<select class=""  style="width: 70px">
+							<option selected value="0">Color</option>
+							<option th:each="size : ${vm.getColorVMList()}" th:value="${size.getId()}" th:text="${size.getName()}"></option>
+
+						</select>
+
+						<a href=""><img th:src="@{/images/product-details/share.png}" class="share img-responsive"  alt="" /></a>
+					</div><!--/product-information-->
+				</div>
+			</div><!--/product-details-->
+
+            <b>Rating: </b>   <span id="count" value="">0</span>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3>User Comment Example</h3>
+                    </div><!-- /col-sm-12 -->
+                </div><!-- /row -->
+                <div class="row" th:each="rate:${vm.getRateVMList()}">
+                    <div class="col-sm-1" >
+                        <div class="thumbnail">
+                            <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                        </div><!-- /thumbnail -->
+                    </div><!-- /col-sm-1 -->
+
+                    <div class="col-sm-10" >
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <strong th:text="${rate.getUserName()}"></strong> <span class="text-muted"></span>
+                                <div id="hearts" class="starrr">
+                                    <span th:each="i: ${#numbers.sequence(1,5)}" th:if="${rate.getStar()>= i}" class="glyphicon .glyphicon-heart-empty glyphicon-heart-empty"></span>
+                                    <span th:each="i: ${#numbers.sequence(1,5)}" th:unless="${ rate.getStar()>= i}" class="glyphicon .glyphicon-heart-empty glyphicon-heart-empty"></span>
+                                </div>
+                            </div>
+                            <div class="panel-body"  th:text="${rate.getComment()}">
+
+                            </div>
+                            <span style="color: #0d6aad" class="pointer reply" th:attr="data-rate=${rate.getId()}" >Trả lời</span>
+
+                            <div class="row" th:each="sub:${rate.getRateVMList()}">
+                                <div class="col-sm-1" >
+                                    <div class="thumbnail">
+                                        <img th:src="${sub.getAvatar()}" alt="AVATAR">
+                                    </div><!-- /thumbnail -->
+                                </div><!-- /col-sm-1 -->
+
+                                <div class="col-sm-10" >
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <strong  th:text="${sub.getUserName()}"></strong> <span class="text-muted"></span>
+                                            <div id="hearts" class="starrr">
+                                                <span th:each="i: ${#numbers.sequence(1,5)}" th:if="${rate.getStar()>= i}" class="glyphicon .glyphicon-heart-empty glyphicon-heart-empty"></span>
+                                                <span th:each="i: ${#numbers.sequence(1,5)}" th:unless="${ rate.getStar()>= i}" class="glyphicon .glyphicon-heart-empty glyphicon-heart-empty"></span>
+                                            </div>
+                                        </div>
+                                        <div class="panel-body" th:text="${sub.getComment()}">
+
+                                        </div>
+
+
+                            <!--<span style="color: #0d6aad" class="pointer reply" th:attr="data-rate=${rate.getId()}" >Trả lời</span>&lt;!&ndash; /panel-body &ndash;&gt;-->
+                        </div>
+                                    <div th:id="${rate.getId()+'_reply'}" hidden="true">
+                                        <div sec:authorize="isAnonymous()" >
+                                            <div  class="w-full">
+                                                <h5 class="mtext-108 cl2 p-b-7">
+                                                    <a href="/user/sign-in">Đăng nhập</a> để bình luận
+                                                </h5>
+                                            </div>
+                                        </div>
+
+                                        <div sec:authorize="isAuthenticated()"  >
+                                            <!-- Add review -->
+                                            <form class="w-full">
+
+                                                <p class="stext-102 cl6">
+
+                                                </p>
+
+
+
+                                                <div class="row p-b-25">
+                                                    <div class="col-12 p-b-5">
+                                                        <!--<label class="stext-102 cl3" for="review">Bình luận</label>-->
+                                                        <textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" th:id="${rate.getId()+'_reviewreply'}" name="review-reply"></textarea>
+                                                    </div>
+
+
+                                                </div>
+
+                                                <input type="button" th:attr="data-rate=${rate.getId()},data-product=${vm.getProductVM().getId()}" value=" Trả lời"
+                                                       class="flex-c-m stext-101 cl0 size-112 bg7 bor11 hov-btn3 p-lr-15 trans-04 rateReply">
+
+                                                <!--</input>-->
+                                            </form>
+                                        </div>
+                                    </div >
+                                 </div><!-- /col-sm-5 --></div>
+
+                        </div>   </div>
+                        <div class="container">
+                            <div class="row">
+
+                            </div><!-- /row -->
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    <div class="thumbnail">
+                                        <img class="img-responsive user-photo" src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                    </div><!-- /thumbnail -->
+                                </div><!-- /col-sm-1 -->
+
+                                <div class="col-sm-10">
+
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <strong>myusername</strong> <span class="text-muted">commented 5 days ago</span>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div sec:authorize="isAnonymous()" >
+                                                <div  class="w-full">
+                                                    <h5 class="mtext-108 cl2 p-b-7">
+                                                        <a href="/user/sign-in">Đăng nhập</a> để bình luận
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                            <div sec:authorize="isAuthenticated()"  >
+                                                <textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review" name="review"></textarea>
+                                            </div>
+                                            <input type="button" th:attr="data-product=${vm.getProductVM().getId()}" value=" Đánh giá"  id="rateSubmit" class="btn btn-danger" style="float: right">
+                                        </div>
+                                    </div>
+                <div class="recommended_items"><!--recommended_items-->
+				<h2 class="title text-center">recommended items</h2>
+
+				<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+					<div class="col-sm-4" th:each="product : ${vm.getProductRVMList()}">
+						<div class="product-image-wrapper">
+							<div class="single-products">
+								<div class="productinfo text-center">
+									<a th:href="${'/product/'+product.getId()}">
+										<img th:src="${product.getMainImage()}" class="card-img-top">
+									</a>
+									<h2  th:text="${product.getPrice() + ' $'}"></h2>
+									<p th:text="${product.getName()}"></p>
+									<button type="button" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/recommended_items-->
+            </div>
+		</div>
+	</div>
+	</div>
+</section>
+
+<div th:replace="fragments/footer :: footer_info"></div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.9.0/sweetalert2.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+<script th:src="@{/js/home.js}"></script>
+<script th:src="@{/js/jquery.js}"></script>
+<script th:src="@{/js/price-range.js}"></script>
+<script th:src="@{/js/jquery.scrollUp.min.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/jquery.prettyPhoto.js}"></script>
+<script th:src="@{/js/main.js}"></script>
+<script src='https://unpkg.com/xzoom/dist/xzoom.min.js'></script>
+<script src='https://hammerjs.github.io/dist/hammer.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js'></script>
+<!--<script src="js/jquery-1.11.1.min.js"></script>-->
+<script th:src="@{/js/product-detail.js}"></script>
+<script type="text/javascript">
+    // Starrr plugin (https://github.com/dobtco/starrr)
+    var __slice = [].slice;
+
+    (function($, window) {
+        var Starrr;
+
+        Starrr = (function() {
+            Starrr.prototype.defaults = {
+                rating: void 0,
+                numStars: 5,
+                change: function(e, value) {}
+            };
+
+            function Starrr($el, options) {
+                var i, _, _ref,
+                    _this = this;
+
+                this.options = $.extend({}, this.defaults, options);
+                this.$el = $el;
+                _ref = this.defaults;
+                for (i in _ref) {
+                    _ = _ref[i];
+                    if (this.$el.data(i) != null) {
+                        this.options[i] = this.$el.data(i);
+                    }
+                }
+                this.createStars();
+                this.syncRating();
+                this.$el.on('mouseover.starrr', 'span', function(e) {
+                    return _this.syncRating(_this.$el.find('span').index(e.currentTarget) + 1);
+                });
+                this.$el.on('mouseout.starrr', function() {
+                    return _this.syncRating();
+                });
+                this.$el.on('click.starrr', 'span', function(e) {
+                    return _this.setRating(_this.$el.find('span').index(e.currentTarget) + 1);
+                });
+                this.$el.on('starrr:change', this.options.change);
+            }
+
+            Starrr.prototype.createStars = function() {
+                var _i, _ref, _results;
+
+                _results = [];
+                for (_i = 1, _ref = this.options.numStars; 1 <= _ref ? _i <= _ref : _i >= _ref; 1 <= _ref ? _i++ : _i--) {
+                    _results.push(this.$el.append("<span class='glyphicon .glyphicon-heart-empty'></span>"));
+                }
+                return _results;
+            };
+
+            Starrr.prototype.setRating = function(rating) {
+                if (this.options.rating === rating) {
+                    rating = void 0;
+                }
+                this.options.rating = rating;
+                this.syncRating();
+                return this.$el.trigger('starrr:change', rating);
+            };
+
+            Starrr.prototype.syncRating = function(rating) {
+                var i, _i, _j, _ref;
+
+                rating || (rating = this.options.rating);
+                if (rating) {
+                    for (i = _i = 0, _ref = rating - 1; 0 <= _ref ? _i <= _ref : _i >= _ref; i = 0 <= _ref ? ++_i : --_i) {
+                        this.$el.find('span').eq(i).removeClass('glyphicon-heart-empty').addClass('glyphicon-heart');
+                    }
+                }
+                if (rating && rating < 5) {
+                    for (i = _j = rating; rating <= 4 ? _j <= 4 : _j >= 4; i = rating <= 4 ? ++_j : --_j) {
+                        this.$el.find('span').eq(i).removeClass('glyphicon-heart').addClass('glyphicon-heart-empty');
+                    }
+                }
+                if (!rating) {
+                    return this.$el.find('span').removeClass('glyphicon-heart').addClass('glyphicon-heart-empty');
+                }
+            };
+
+            return Starrr;
+
+        })();
+        return $.fn.extend({
+            starrr: function() {
+                var args, option;
+
+                option = arguments[0], args = 2 <= arguments.length ? __slice.call(arguments, 1) : [];
+                return this.each(function() {
+                    var data;
+
+                    data = $(this).data('star-rating');
+                    if (!data) {
+                        $(this).data('star-rating', (data = new Starrr($(this), option)));
+                    }
+                    if (typeof option === 'string') {
+                        return data[option].apply(data, args);
+                    }
+                });
+            }
+        });
+    })(window.jQuery, window);
+
+    $(function() {
+        return $(".starrr").starrr();
+    });
+
+    $( document ).ready(function() {
+
+        $('#hearts').on('starrr:change', function(e, value){
+            $('#count').html(value);
+        });
+
+        $('#hearts-existing').on('starrr:change', function(e, value){
+            $('#count-existing').html(value);
+        });
+    });
+    !function ($) {
+
+        "use strict";
+
+        var Magnify = function (element, options) {
+            this.init('magnify', element, options)
+        }
+
+        Magnify.prototype = {
+
+            constructor: Magnify
+            ,
+            init: function (type, element, options) {
+                var event = 'mousemove'
+                    , eventOut = 'mouseleave';
+
+                this.type = type
+                this.$element = $(element)
+                this.options = this.getOptions(options)
+                this.nativeWidth = 0
+                this.nativeHeight = 0
+
+                this.$element.wrap('<div class="magnify" \>');
+                this.$element.parent('.magnify').append('<div class="magnify-large" \>');
+                this.$element.siblings(".magnify-large").css("background","url('" + this.$element.attr("src") + "') no-repeat");
+
+
+                this.$element.parent('.magnify').on(event + '.' + this.type, $.proxy(this.check, this));
+                this.$element.parent('.magnify').on(eventOut + '.' + this.type, $.proxy(this.check, this));
+            }
+
+            , getOptions: function (options) {
+                options = $.extend({}, $.fn[this.type].defaults, options, this.$element.data())
+
+                if (options.delay && typeof options.delay == 'number') {
+                    options.delay = {
+                        show: options.delay
+                        , hide: options.delay
+                    }
+                }
+
+                return options
+            }
+
+            , check: function (e) {
+                var container = $(e.currentTarget);
+                var self = container.children('img');
+                var mag = container.children(".magnify-large");
+                if(!this.nativeWidth && !this.nativeHeight) {
+                    var image = new Image();
+                    image.src = self.attr("src");
+
+                    this.nativeWidth = image.width;
+                    this.nativeHeight = image.height;
+
+                } else {
+
+                    var magnifyOffset = container.offset();
+                    var mx = e.pageX - magnifyOffset.left;
+                    var my = e.pageY - magnifyOffset.top;
+
+                    if (mx < container.width() && my < container.height() && mx > 0 && my > 0) {
+                        mag.fadeIn(100);
+                    } else {
+                        mag.fadeOut(100);
+                    }
+
+                    if(mag.is(":visible"))
+                    {
+                        var rx = Math.round(mx/container.width()*this.nativeWidth - mag.width()/2)*-1;
+                        var ry = Math.round(my/container.height()*this.nativeHeight - mag.height()/2)*-1;
+                        var bgp = rx + "px " + ry + "px";
+
+                        var px = mx - mag.width()/2;
+                        var py = my - mag.height()/2;
+
+                        mag.css({left: px, top: py, backgroundPosition: bgp});
+                    }
+                }
+
+            }
+        }
+
+
+
+        $.fn.magnify = function ( option ) {
+            return this.each(function () {
+                var $this = $(this)
+                    , data = $this.data('magnify')
+                    , options = typeof option == 'object' && option
+                if (!data) $this.data('tooltip', (data = new Magnify(this, options)))
+                if (typeof option == 'string') data[option]()
+            })
+        }
+
+
+        $.fn.magnify.Constructor = Magnify
+
+        $.fn.magnify.defaults = {
+            delay: 0
+        }
+
+
+
+        $(window).on('load', function () {
+            $('[data-toggle="magnify"]').each(function () {
+                var $mag = $(this);
+                $mag.magnify()
+            })
+        })
+
+    } ( window.jQuery );
+
+    $(".list-product-image").on("click",function () {
+        $("#test1").attr("src",$(this).data("image"));
+        $('#test1').css('background-image','url("image")');
+    });
+
+</script>
+</body>
+</html>
